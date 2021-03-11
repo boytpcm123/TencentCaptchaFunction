@@ -83,7 +83,9 @@ ninjaKID, nguyenthuongthongcm@gmail.com
 ## Reference
 
 https://cloud.tencent.com/document/product/1110/36841
+
 https://github.com/BaconTimes/TencentCaptchaSDK
+
 https://github.com/leanflutter/flutter_tencent_captcha
 
 ## License
