@@ -1,0 +1,16 @@
+PODS:
+  - TencentCaptchaFunction (1.0.0)
+
+DEPENDENCIES:
+  - TencentCaptchaFunction (from `../`)
+
+EXTERNAL SOURCES:
+  TencentCaptchaFunction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TencentCaptchaFunction: e4e9dde960ceae629e9b7e9940934347cb04b470
+
+PODFILE CHECKSUM: 80d77595978d6346a73f204d3c8078501be05322
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,31 @@
+{
+  "name": "TencentCaptchaFunction",
+  "version": "1.0.0",
+  "summary": "A short description of TencentCaptchaFunction.",
+  "description": "A short description of TencentCaptchaFunction.",
+  "homepage": "https://github.com/BaconTimes/TencentCaptchaFunction",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ninjaKID": "nguyenthuongthongcm@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TencentCaptchaFunction/**/*.{h,m}",
+  "vendored_frameworks": "TencentCaptchaFunction/TencentCaptchaFunction.framework",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "static_framework": true,
+  "resource_bundles": {
+    "TencentCaptchaFunction": [
+      "TencentCaptchaFunction/*/**"
+    ]
+  }
+}
