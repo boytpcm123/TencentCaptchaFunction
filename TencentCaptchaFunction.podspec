@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 A library of Tencent Captcha Code.
+https://cloud.tencent.com/document/product/1110/36841
                        DESC
 
   s.homepage         = 'https://github.com/boytpcm123/TencentCaptchaFunction'
@@ -27,10 +28,8 @@ A library of Tencent Captcha Code.
   s.source           = { :git => 'https://github.com/boytpcm123/TencentCaptchaFunction.git', :tag => s.version.to_s }
   s.platform = :ios
   s.ios.deployment_target = '10.0'
-
   s.source       = { :path => '.' }
   s.source_files  = "TencentCaptchaFunction/**/*.{h,m}"
-  s.vendored_frameworks = 'TencentCaptchaFunction/TencentCaptchaFunction.framework'
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
   s.resource_bundles = {
