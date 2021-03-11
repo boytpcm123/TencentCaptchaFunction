@@ -23,12 +23,12 @@ https://cloud.tencent.com/document/product/1110/36841
                        DESC
 
   s.homepage         = 'https://github.com/boytpcm123/TencentCaptchaFunction'
+  s.screenshots     = 'https://raw.githubusercontent.com/boytpcm123/TencentCaptchaFunction/master/Images/demo.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ninjaKID' => 'nguyenthuongthongcm@gmail.com' }
   s.source           = { :git => 'https://github.com/boytpcm123/TencentCaptchaFunction.git', :tag => s.version.to_s }
   s.platform = :ios
   s.ios.deployment_target = '10.0'
-  s.source       = { :path => '.' }
   s.source_files  = "TencentCaptchaFunction/**/*.{h,m}"
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
