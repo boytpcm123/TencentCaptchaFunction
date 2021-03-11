@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FEEA185EE8C0F58F7D479152499BB95 /* TencentCaptchaFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB62B34AEA1B727BC055E05747A44E1 /* TencentCaptchaFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33CEE633D39A2A72FA9A19E9158CCF4A /* TencentCaptchaWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443A227FB5B44ACFF09A0D5CE3ADF1A /* TencentCaptchaWebView.m */; };
-		3ADDDECDFB1C53E74E9EDB01F2449ECD /* TencentCaptchaWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE89AA53C55936709330D28AEFCB84D1 /* TencentCaptchaWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEEA185EE8C0F58F7D479152499BB95 /* TencentCaptchaFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD2D43F6A49C176DA9B59AEDC4EEB65 /* TencentCaptchaFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33CEE633D39A2A72FA9A19E9158CCF4A /* TencentCaptchaWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE3FD06AC740B91AEBD4619658AECC /* TencentCaptchaWebView.m */; };
+		3ADDDECDFB1C53E74E9EDB01F2449ECD /* TencentCaptchaWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA36980A1D22A20D726D25091495D339 /* TencentCaptchaWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400B9D93FEC2C7CBE587B0CA7F8D3E29 /* captcha.html in Resources */ = {isa = PBXBuildFile; fileRef = 87B0CFCCF347C1151D913BE1A939F633 /* captcha.html */; };
 		5ADA5953E9F765FCE739325C67D8FE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C78139CF5B84FC0793614098A085435 /* TencentCaptchaFunction.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ADA14B3AFD5FA149F1177A231527742D /* TencentCaptchaFunction.podspec */; };
 		7CDB1923617E57C08286195F18CF2380 /* Pods-TencentCaptchaFunctionExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616A489B8617F89A34B8BABC9E7A0D54 /* Pods-TencentCaptchaFunctionExample-dummy.m */; };
-		86E63B0012523CFDF648933DA6B3EE53 /* TencentCaptchaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA74A20F83E4A2589762F2E0C882A6C8 /* TencentCaptchaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E63B0012523CFDF648933DA6B3EE53 /* TencentCaptchaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 166BDBA9FEC2230E4F8C1C37440A72CE /* TencentCaptchaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3ECC6D8B2E866DB398912FAF184E968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B1EC20094553612B2DA597FA48DFC56C /* TencentCaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1D087B93879D1192904A36A9F8B34F /* TencentCaptchaViewController.m */; };
+		B1EC20094553612B2DA597FA48DFC56C /* TencentCaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968B32603216FCFF8D53233DAAA216A6 /* TencentCaptchaViewController.m */; };
 		BCBBFAACFB31A24A3DB6EE8383525C45 /* Pods-TencentCaptchaFunctionExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68948022B1EBC6A231680C1760B0B32 /* Pods-TencentCaptchaFunctionExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBFFB871C1E716F47F2519BDCBFBA2CB /* TencentCaptchaFunction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6871F67247268D49A3A6F7317284ABB3 /* TencentCaptchaFunction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEFA04BC44D78273D3F7FD25BED2A9B5 /* TencentCaptchaFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F284B50BFEACE561A846650D96E8770 /* TencentCaptchaFunction-dummy.m */; };
-		F0F7C6EA38B67187970E39D07D7C0BA9 /* captcha.html in Resources */ = {isa = PBXBuildFile; fileRef = B33038691EEB3EF95221135D775803FE /* captcha.html */; };
+		CBFFB871C1E716F47F2519BDCBFBA2CB /* TencentCaptchaFunction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF56FB4F64220D59CD7E992CA7256ECA /* TencentCaptchaFunction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFA04BC44D78273D3F7FD25BED2A9B5 /* TencentCaptchaFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DD155C9D0190C99B6BA7624CCEC5CF /* TencentCaptchaFunction-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C825003863ECB1D78FC3ECA7C504C22 /* PBXContainerItemProxy */ = {
+		40605047C988AADD934B50868E8ECAA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ADD31B6399577A6A831347E67D5B0E7A;
 			remoteInfo = "TencentCaptchaFunction-TencentCaptchaFunction";
 		};
-		AAD100D97ABD05720B35BBCC055CED08 /* PBXContainerItemProxy */ = {
+		6D0BCAEC7EB4398F23DE51AC98AEB28D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,41 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AB62B34AEA1B727BC055E05747A44E1 /* TencentCaptchaFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaFunction.h; path = TencentCaptchaFunction/TencentCaptchaFunction.h; sourceTree = "<group>"; };
 		0C357F95BD13B813114B5E47EB8115A4 /* Pods-TencentCaptchaFunctionExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TencentCaptchaFunctionExample-Info.plist"; sourceTree = "<group>"; };
-		1443A227FB5B44ACFF09A0D5CE3ADF1A /* TencentCaptchaWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TencentCaptchaWebView.m; path = TencentCaptchaFunction/TencentCaptchaWebView.m; sourceTree = "<group>"; };
+		164526D0E69BC4E2A0CD7BEA11BC6136 /* TencentCaptchaFunction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TencentCaptchaFunction-Info.plist"; sourceTree = "<group>"; };
+		166BDBA9FEC2230E4F8C1C37440A72CE /* TencentCaptchaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaViewController.h; path = TencentCaptchaFunction/TencentCaptchaViewController.h; sourceTree = "<group>"; };
 		1D4B3D4658B22B842AA2D529426C423C /* Pods-TencentCaptchaFunctionExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TencentCaptchaFunctionExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F284B50BFEACE561A846650D96E8770 /* TencentCaptchaFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TencentCaptchaFunction-dummy.m"; sourceTree = "<group>"; };
-		4C721B781EA951820E50BD445E43DFCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22CF1EA625FF2FCCA6E5B52E6573EB8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4CBE3FD06AC740B91AEBD4619658AECC /* TencentCaptchaWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TencentCaptchaWebView.m; path = TencentCaptchaFunction/TencentCaptchaWebView.m; sourceTree = "<group>"; };
+		5274B8D2277B738F95F54DAFE278B499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5C745FE63B338EC7BC9A68325703FEA9 /* Pods-TencentCaptchaFunctionExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TencentCaptchaFunctionExample-resources.sh"; sourceTree = "<group>"; };
-		5EAA4C267DBCCB2E6BAB333176768BA9 /* TencentCaptchaFunction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TencentCaptchaFunction-Info.plist"; sourceTree = "<group>"; };
 		616A489B8617F89A34B8BABC9E7A0D54 /* Pods-TencentCaptchaFunctionExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TencentCaptchaFunctionExample-dummy.m"; sourceTree = "<group>"; };
-		61F75693486325B46FD1E75AD6E91ADB /* ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist"; sourceTree = "<group>"; };
-		6871F67247268D49A3A6F7317284ABB3 /* TencentCaptchaFunction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentCaptchaFunction-umbrella.h"; sourceTree = "<group>"; };
+		6AD2D43F6A49C176DA9B59AEDC4EEB65 /* TencentCaptchaFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaFunction.h; path = TencentCaptchaFunction/TencentCaptchaFunction.h; sourceTree = "<group>"; };
 		6EB40ADA6DAC28FB496E303B8C46109D /* Pods_TencentCaptchaFunctionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TencentCaptchaFunctionExample.framework; path = "Pods-TencentCaptchaFunctionExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78AE61B43DB72A98AEF7B51FC5B130B3 /* TencentCaptchaFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TencentCaptchaFunction.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C0916A4D82DB23EA5919A57669FB4D /* TencentCaptchaFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentCaptchaFunction-prefix.pch"; sourceTree = "<group>"; };
-		960C148E4CA0C30A936729B1E560171D /* TencentCaptchaFunction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCaptchaFunction.release.xcconfig; sourceTree = "<group>"; };
-		9D5DE81C7E62CADE1B1260F533426686 /* TencentCaptchaFunction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCaptchaFunction.debug.xcconfig; sourceTree = "<group>"; };
+		7DD477A26047DF56E625CBD8BF92A6B9 /* TencentCaptchaFunction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCaptchaFunction.debug.xcconfig; sourceTree = "<group>"; };
+		81FD918477D1972126313C1E0FF763A7 /* TencentCaptchaFunction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCaptchaFunction.release.xcconfig; sourceTree = "<group>"; };
+		87B0CFCCF347C1151D913BE1A939F633 /* captcha.html */ = {isa = PBXFileReference; includeInIndex = 1; path = captcha.html; sourceTree = "<group>"; };
+		94C5FDF394902321ED15B8C641489C18 /* TencentCaptchaFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TencentCaptchaFunction.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968B32603216FCFF8D53233DAAA216A6 /* TencentCaptchaViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TencentCaptchaViewController.m; path = TencentCaptchaFunction/TencentCaptchaViewController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B33038691EEB3EF95221135D775803FE /* captcha.html */ = {isa = PBXFileReference; includeInIndex = 1; name = captcha.html; path = TencentCaptchaFunction/Resources/captcha.html; sourceTree = "<group>"; };
-		BA908D38D8CF24B14E7D21B1D96A6E95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA36980A1D22A20D726D25091495D339 /* TencentCaptchaWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaWebView.h; path = TencentCaptchaFunction/TencentCaptchaWebView.h; sourceTree = "<group>"; };
+		ADA14B3AFD5FA149F1177A231527742D /* TencentCaptchaFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; path = TencentCaptchaFunction.podspec; sourceTree = "<group>"; };
+		B6DD155C9D0190C99B6BA7624CCEC5CF /* TencentCaptchaFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TencentCaptchaFunction-dummy.m"; sourceTree = "<group>"; };
 		BAE96D22960E59842443997907478705 /* TencentCaptchaFunction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TencentCaptchaFunction.framework; path = TencentCaptchaFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AF6AF58612251BA096859BFF811B5 /* Pods-TencentCaptchaFunctionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TencentCaptchaFunctionExample.debug.xcconfig"; sourceTree = "<group>"; };
-		BE89AA53C55936709330D28AEFCB84D1 /* TencentCaptchaWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaWebView.h; path = TencentCaptchaFunction/TencentCaptchaWebView.h; sourceTree = "<group>"; };
+		BF56FB4F64220D59CD7E992CA7256ECA /* TencentCaptchaFunction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentCaptchaFunction-umbrella.h"; sourceTree = "<group>"; };
+		C052C252A987A867B9FD2C79287ED16C /* TencentCaptchaFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentCaptchaFunction-prefix.pch"; sourceTree = "<group>"; };
 		C38B82BE543E7C3D9526E86CE98DFFF9 /* Pods-TencentCaptchaFunctionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TencentCaptchaFunctionExample.release.xcconfig"; sourceTree = "<group>"; };
-		C77070F0C986D5B3FA38566F7223AF9E /* TencentCaptchaFunction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TencentCaptchaFunction.modulemap; sourceTree = "<group>"; };
+		CB1773EE15BFC1BE404F0C2438D21100 /* TencentCaptchaFunction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TencentCaptchaFunction.modulemap; sourceTree = "<group>"; };
 		D9F71F6F3C14B6DF4253F5F3DFAA929C /* Pods-TencentCaptchaFunctionExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TencentCaptchaFunctionExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		E68948022B1EBC6A231680C1760B0B32 /* Pods-TencentCaptchaFunctionExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TencentCaptchaFunctionExample-umbrella.h"; sourceTree = "<group>"; };
 		F69754CB9284A428E05FF3BB1C732E44 /* Pods-TencentCaptchaFunctionExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TencentCaptchaFunctionExample.modulemap"; sourceTree = "<group>"; };
 		F85110CD77D649ED7B11C8A2713F6EE1 /* TencentCaptchaFunction.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TencentCaptchaFunction.bundle; path = "TencentCaptchaFunction-TencentCaptchaFunction.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA74A20F83E4A2589762F2E0C882A6C8 /* TencentCaptchaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentCaptchaViewController.h; path = TencentCaptchaFunction/TencentCaptchaViewController.h; sourceTree = "<group>"; };
-		FD1D087B93879D1192904A36A9F8B34F /* TencentCaptchaViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TencentCaptchaViewController.m; path = TencentCaptchaFunction/TencentCaptchaViewController.m; sourceTree = "<group>"; };
+		FB451C75B611851005F8487BC5EC367A /* ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89CA84D719CDD330A1075FED85340E3B /* Frameworks */ = {
+		46BA72F24F17FB66A0B995B59D1AC886 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,44 +101,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ACB2BA4122DA74346B8D4D3DB2ABBEC /* TencentCaptchaFunction */ = {
+		4585DE435DFE6D63753AE5650625D1E2 /* TencentCaptchaFunction */ = {
 			isa = PBXGroup;
 			children = (
-				B33038691EEB3EF95221135D775803FE /* captcha.html */,
-				0AB62B34AEA1B727BC055E05747A44E1 /* TencentCaptchaFunction.h */,
-				FA74A20F83E4A2589762F2E0C882A6C8 /* TencentCaptchaViewController.h */,
-				FD1D087B93879D1192904A36A9F8B34F /* TencentCaptchaViewController.m */,
-				BE89AA53C55936709330D28AEFCB84D1 /* TencentCaptchaWebView.h */,
-				1443A227FB5B44ACFF09A0D5CE3ADF1A /* TencentCaptchaWebView.m */,
-				763FC3B985E2B73E1B247C2EF02B3AD3 /* Pod */,
-				1AB3762B52D35FD0C3199A91ABCC29C1 /* Support Files */,
+				6AD2D43F6A49C176DA9B59AEDC4EEB65 /* TencentCaptchaFunction.h */,
+				166BDBA9FEC2230E4F8C1C37440A72CE /* TencentCaptchaViewController.h */,
+				968B32603216FCFF8D53233DAAA216A6 /* TencentCaptchaViewController.m */,
+				AA36980A1D22A20D726D25091495D339 /* TencentCaptchaWebView.h */,
+				4CBE3FD06AC740B91AEBD4619658AECC /* TencentCaptchaWebView.m */,
+				4DA9DCF9CFBC122A028645FB400493F5 /* 1.0.0 */,
+				4FDD88888C3DFA69079E6497D539E0DA /* Pod */,
+				63ACDF7CCC26D0C32C7BC39A4B477D83 /* Resources */,
+				73A47A3D87903A56E18D31A5F1F91FB9 /* Support Files */,
 			);
 			name = TencentCaptchaFunction;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		1AB3762B52D35FD0C3199A91ABCC29C1 /* Support Files */ = {
+		4DA9DCF9CFBC122A028645FB400493F5 /* 1.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				61F75693486325B46FD1E75AD6E91ADB /* ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist */,
-				C77070F0C986D5B3FA38566F7223AF9E /* TencentCaptchaFunction.modulemap */,
-				2F284B50BFEACE561A846650D96E8770 /* TencentCaptchaFunction-dummy.m */,
-				5EAA4C267DBCCB2E6BAB333176768BA9 /* TencentCaptchaFunction-Info.plist */,
-				93C0916A4D82DB23EA5919A57669FB4D /* TencentCaptchaFunction-prefix.pch */,
-				6871F67247268D49A3A6F7317284ABB3 /* TencentCaptchaFunction-umbrella.h */,
-				9D5DE81C7E62CADE1B1260F533426686 /* TencentCaptchaFunction.debug.xcconfig */,
-				960C148E4CA0C30A936729B1E560171D /* TencentCaptchaFunction.release.xcconfig */,
+				ADA14B3AFD5FA149F1177A231527742D /* TencentCaptchaFunction.podspec */,
 			);
-			name = "Support Files";
-			path = "TencentCaptchaFunctionExample/Pods/Target Support Files/TencentCaptchaFunction";
+			name = 1.0.0;
+			path = TencentCaptchaFunction/1.0.0;
 			sourceTree = "<group>";
 		};
-		271F25EF8C24BBB134A93889DA9A5E95 /* Development Pods */ = {
+		4FDD88888C3DFA69079E6497D539E0DA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0ACB2BA4122DA74346B8D4D3DB2ABBEC /* TencentCaptchaFunction */,
+				5274B8D2277B738F95F54DAFE278B499 /* LICENSE */,
+				22CF1EA625FF2FCCA6E5B52E6573EB8E /* README.md */,
+				94C5FDF394902321ED15B8C641489C18 /* TencentCaptchaFunction.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5095954AB5429E248F2DAF955D8F5BDC /* Pods-TencentCaptchaFunctionExample */ = {
@@ -164,6 +162,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		63ACDF7CCC26D0C32C7BC39A4B477D83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87B0CFCCF347C1151D913BE1A939F633 /* captcha.html */,
+			);
+			name = Resources;
+			path = TencentCaptchaFunction/Resources;
+			sourceTree = "<group>";
+		};
 		736EFE2FEDF2291F14ACFDAA036D7FD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,21 +181,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		763FC3B985E2B73E1B247C2EF02B3AD3 /* Pod */ = {
+		73A47A3D87903A56E18D31A5F1F91FB9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C721B781EA951820E50BD445E43DFCD /* LICENSE */,
-				BA908D38D8CF24B14E7D21B1D96A6E95 /* README.md */,
-				78AE61B43DB72A98AEF7B51FC5B130B3 /* TencentCaptchaFunction.podspec */,
+				FB451C75B611851005F8487BC5EC367A /* ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist */,
+				CB1773EE15BFC1BE404F0C2438D21100 /* TencentCaptchaFunction.modulemap */,
+				B6DD155C9D0190C99B6BA7624CCEC5CF /* TencentCaptchaFunction-dummy.m */,
+				164526D0E69BC4E2A0CD7BEA11BC6136 /* TencentCaptchaFunction-Info.plist */,
+				C052C252A987A867B9FD2C79287ED16C /* TencentCaptchaFunction-prefix.pch */,
+				BF56FB4F64220D59CD7E992CA7256ECA /* TencentCaptchaFunction-umbrella.h */,
+				7DD477A26047DF56E625CBD8BF92A6B9 /* TencentCaptchaFunction.debug.xcconfig */,
+				81FD918477D1972126313C1E0FF763A7 /* TencentCaptchaFunction.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "TencentCaptchaFunctionExample/Pods/Target Support Files/TencentCaptchaFunction";
+			sourceTree = "<group>";
+		};
+		8331EF39119E62896EA9CE6C1E93675C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4585DE435DFE6D63753AE5650625D1E2 /* TencentCaptchaFunction */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				271F25EF8C24BBB134A93889DA9A5E95 /* Development Pods */,
+				8331EF39119E62896EA9CE6C1E93675C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				736EFE2FEDF2291F14ACFDAA036D7FD5 /* Products */,
 				F0AAD5A18AE1A1D81B35FF6B9D2453EF /* Targets Support Files */,
@@ -248,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F2EDD8BF97E29960194D24B639A27646 /* PBXTargetDependency */,
+				1565AB8A78EB44E8C0FC4E6D6F0005FC /* PBXTargetDependency */,
 			);
 			name = "Pods-TencentCaptchaFunctionExample";
 			productName = "Pods-TencentCaptchaFunctionExample";
@@ -267,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE6C2FE7D9242700AC8218C6E2D71B80 /* PBXTargetDependency */,
+				A2A722B04BD3F5A2D1B45A2A8EAC83F4 /* PBXTargetDependency */,
 			);
 			name = TencentCaptchaFunction;
 			productName = TencentCaptchaFunction;
@@ -276,11 +297,11 @@
 		};
 		ADD31B6399577A6A831347E67D5B0E7A /* TencentCaptchaFunction-TencentCaptchaFunction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 828B757EA3EC63B779C27C6CBE795825 /* Build configuration list for PBXNativeTarget "TencentCaptchaFunction-TencentCaptchaFunction" */;
+			buildConfigurationList = 1006397CE829832E20185901A444DC76 /* Build configuration list for PBXNativeTarget "TencentCaptchaFunction-TencentCaptchaFunction" */;
 			buildPhases = (
-				7EAC2747FD161C434B89B4AEF763BF95 /* Sources */,
-				89CA84D719CDD330A1075FED85340E3B /* Frameworks */,
-				3FD4A992FA9C4531932BB9522C4BE257 /* Resources */,
+				0F48EBD013CFB61B00B39911DEA1A8D4 /* Sources */,
+				46BA72F24F17FB66A0B995B59D1AC886 /* Frameworks */,
+				29E2C1F3B8CE35125CB8C2B9E5046B62 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,11 +342,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FD4A992FA9C4531932BB9522C4BE257 /* Resources */ = {
+		29E2C1F3B8CE35125CB8C2B9E5046B62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F7C6EA38B67187970E39D07D7C0BA9 /* captcha.html in Resources */,
+				400B9D93FEC2C7CBE587B0CA7F8D3E29 /* captcha.html in Resources */,
+				6C78139CF5B84FC0793614098A085435 /* TencentCaptchaFunction.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,18 +368,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F48EBD013CFB61B00B39911DEA1A8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36BA167CC969B766C363B774D663ADC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7CDB1923617E57C08286195F18CF2380 /* Pods-TencentCaptchaFunctionExample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EAC2747FD161C434B89B4AEF763BF95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,37 +396,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE6C2FE7D9242700AC8218C6E2D71B80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TencentCaptchaFunction-TencentCaptchaFunction";
-			target = ADD31B6399577A6A831347E67D5B0E7A /* TencentCaptchaFunction-TencentCaptchaFunction */;
-			targetProxy = 2C825003863ECB1D78FC3ECA7C504C22 /* PBXContainerItemProxy */;
-		};
-		F2EDD8BF97E29960194D24B639A27646 /* PBXTargetDependency */ = {
+		1565AB8A78EB44E8C0FC4E6D6F0005FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TencentCaptchaFunction;
 			target = 53943AA77928FA9BDA03632D6D7D37D0 /* TencentCaptchaFunction */;
-			targetProxy = AAD100D97ABD05720B35BBCC055CED08 /* PBXContainerItemProxy */;
+			targetProxy = 6D0BCAEC7EB4398F23DE51AC98AEB28D /* PBXContainerItemProxy */;
+		};
+		A2A722B04BD3F5A2D1B45A2A8EAC83F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TencentCaptchaFunction-TencentCaptchaFunction";
+			target = ADD31B6399577A6A831347E67D5B0E7A /* TencentCaptchaFunction-TencentCaptchaFunction */;
+			targetProxy = 40605047C988AADD934B50868E8ECAA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4ACD49C73A21D2461A269831109401D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960C148E4CA0C30A936729B1E560171D /* TencentCaptchaFunction.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TencentCaptchaFunction";
-				IBSC_MODULE = TencentCaptchaFunction;
-				INFOPLIST_FILE = "Target Support Files/TencentCaptchaFunction/ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TencentCaptchaFunction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		592FD13B3EFA77744C1904F0F6D29679 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD9AF6AF58612251BA096859BFF811B5 /* Pods-TencentCaptchaFunctionExample.debug.xcconfig */;
@@ -444,7 +450,7 @@
 		};
 		6EA7A6BB56D7786D2B4CBB5DC4F6C416 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960C148E4CA0C30A936729B1E560171D /* TencentCaptchaFunction.release.xcconfig */;
+			baseConfigurationReference = 81FD918477D1972126313C1E0FF763A7 /* TencentCaptchaFunction.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -537,6 +543,22 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A912053B6826C5DA588BCF889BA718BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FD918477D1972126313C1E0FF763A7 /* TencentCaptchaFunction.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TencentCaptchaFunction";
+				IBSC_MODULE = TencentCaptchaFunction;
+				INFOPLIST_FILE = "Target Support Files/TencentCaptchaFunction/ResourceBundle-TencentCaptchaFunction-TencentCaptchaFunction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TencentCaptchaFunction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -646,7 +668,7 @@
 		};
 		EB9247BF9F2C554EE1117CDA2B3508A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5DE81C7E62CADE1B1260F533426686 /* TencentCaptchaFunction.debug.xcconfig */;
+			baseConfigurationReference = 7DD477A26047DF56E625CBD8BF92A6B9 /* TencentCaptchaFunction.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -679,9 +701,9 @@
 			};
 			name = Debug;
 		};
-		FEABD7FC37C06E29B260EF5E49AA1B86 /* Debug */ = {
+		FFF23A36FD05113EE69DEF5522AEA90C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5DE81C7E62CADE1B1260F533426686 /* TencentCaptchaFunction.debug.xcconfig */;
+			baseConfigurationReference = 7DD477A26047DF56E625CBD8BF92A6B9 /* TencentCaptchaFunction.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TencentCaptchaFunction";
 				IBSC_MODULE = TencentCaptchaFunction;
@@ -698,6 +720,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1006397CE829832E20185901A444DC76 /* Build configuration list for PBXNativeTarget "TencentCaptchaFunction-TencentCaptchaFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF23A36FD05113EE69DEF5522AEA90C /* Debug */,
+				A912053B6826C5DA588BCF889BA718BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -721,15 +752,6 @@
 			buildConfigurations = (
 				592FD13B3EFA77744C1904F0F6D29679 /* Debug */,
 				C87A5233DEAF8563570B0DC0FB22114F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		828B757EA3EC63B779C27C6CBE795825 /* Build configuration list for PBXNativeTarget "TencentCaptchaFunction-TencentCaptchaFunction" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FEABD7FC37C06E29B260EF5E49AA1B86 /* Debug */,
-				4ACD49C73A21D2461A269831109401D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

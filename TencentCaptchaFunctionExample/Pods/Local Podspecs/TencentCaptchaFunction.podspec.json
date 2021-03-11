@@ -20,7 +20,6 @@
     "ios": "10.0"
   },
   "source_files": "TencentCaptchaFunction/**/*.{h,m}",
-  "exclude_files": "TencentCaptchaFunction/**/*.plist",
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
