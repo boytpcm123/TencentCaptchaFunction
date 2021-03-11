@@ -74,7 +74,7 @@ controller.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
 
 and you will the image like this:  
 
-![image](images/demo.png)
+![image](Images/demo.png)
 
 ## Author
 
