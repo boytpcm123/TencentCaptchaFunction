@@ -15,7 +15,7 @@ TencentCaptchaFunction is available through [CocoaPods](https://cocoapods.org). 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TencentCaptchaFunction', '~> 1.0.1'
+pod 'TencentCaptchaFunction', '~> 1.0.0'
 ```
 
 # Usage
