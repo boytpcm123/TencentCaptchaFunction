@@ -74,7 +74,7 @@ controller.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
 
 and you will the image like this:  
 
-![image](Images/demo.png)
+![image](https://raw.githubusercontent.com/boytpcm123/TencentCaptchaFunction/master/Images/demo.png)
 
 ## Author
 
