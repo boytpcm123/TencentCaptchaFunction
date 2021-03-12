@@ -1,5 +1,5 @@
 PODS:
-  - TencentCaptchaFunction (1.0.0)
+  - TencentCaptchaFunction (1.0.1)
 
 DEPENDENCIES:
   - TencentCaptchaFunction (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TencentCaptchaFunction: 50c071d7e522258718440efb65084b494bdaa9b9
+  TencentCaptchaFunction: 3063cd45139f7b452a2d806418ad93c351e6ef3a
 
 PODFILE CHECKSUM: 80d77595978d6346a73f204d3c8078501be05322
 
